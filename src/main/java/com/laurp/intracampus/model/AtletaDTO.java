@@ -20,6 +20,8 @@ public class AtletaDTO {
 
     private Long atleticaId;
 
+    private Boolean formado;
+
     @JsonProperty("atleta_url")
     private String atletaUrl;
 }

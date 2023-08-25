@@ -19,6 +19,8 @@ public class Atleta {
 
     private String cpf;
 
+    private Boolean formado;
+
     @ManyToOne
     private Atletica atletica;
 
