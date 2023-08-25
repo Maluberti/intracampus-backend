@@ -11,7 +11,7 @@ import org.mapstruct.factory.Mappers;
 public interface AtletaMapper {
     AtletaMapper INSTANCE = Mappers.getMapper(AtletaMapper.class);
 
-    @Mapping(target = "atleticaId", source = "atletica.id")
+    @Mapping(target = "atleticaName", source = "atletica.name")
     AtletaDTO toDTO (Atleta atleta);
     @Mapping(target = "atletica.id", source = "atleticaId")
     Atleta toEntity(AtletaCreateDTO atletaCreateDTO);

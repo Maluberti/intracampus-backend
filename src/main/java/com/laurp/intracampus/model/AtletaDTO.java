@@ -18,7 +18,7 @@ public class AtletaDTO {
 
     private String cpf;
 
-    private Long atleticaId;
+    private String atleticaName;
 
     private Boolean formado;
 
